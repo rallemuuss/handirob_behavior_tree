@@ -28,10 +28,11 @@ endif ()
 
 
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES handirob_behavior_tree
-#  CATKIN_DEPENDS behaviortree-cpp-v3 roscpp std_msgs
-#  DEPENDS system_lib
+  CATKIN_DEPENDS 
+  behaviortree-cpp-v3 
+  roscpp 
+  std_msgs 
+  ui_control
 )
 
 ###########
@@ -41,9 +42,11 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
+set(INCLUDE_DIR /src)
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
+  ${INCLUDE_DIRS}
 )
 
 add_library(set_mood ${PROJECT_SOURCE_DIR}/src/action_nodes/set_mood.cc )

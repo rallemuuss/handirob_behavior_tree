@@ -185,7 +185,7 @@ foreach(t ${handirob_behavior_tree_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "behaviortree-cpp-v3;roscpp;std_msgs;ui_control")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

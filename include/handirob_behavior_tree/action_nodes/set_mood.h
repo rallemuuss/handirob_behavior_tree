@@ -6,9 +6,8 @@
 
 // others
 #include "behaviortree_cpp_v3/behavior_tree.h"
-#include <std_msgs/Int32.h>
 #include <string.h>
-#include "ui_mood.h"
+#include "ui_control/ui_mood.h"
 
 
 class SetMood : public BT::SyncActionNode

@@ -5,4 +5,4 @@ Description: Description of handirob_behavior_tree
 Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: behaviortree-cpp-v3 roscpp std_msgs ui_control

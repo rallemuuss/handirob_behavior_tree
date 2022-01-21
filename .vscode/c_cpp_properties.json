@@ -16,11 +16,12 @@
                 "/home/junge/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
                 "/home/junge/catkin_ws/src/stand_pose/include/**",
                 "/home/junge/catkin_ws/src/ui_control/include/**",
-                "/usr/include/**",
                 "/opt/ros/noetic/include",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "/opt/ros/noetic/include"
             ],
-            "name": "ROS"
+            "name": "ROS",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

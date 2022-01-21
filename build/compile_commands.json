@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/junge/catkin_ws/src/handirob_behavior_tree/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"handirob_behavior_tree\\\" -DZMQ_FOUND -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/junge/catkin_ws/devel/.private/ui_control/include -isystem /opt/ros/noetic/include  -g   -std=c++14 -std=gnu++14 -o CMakeFiles/handirob_behavior_tree.dir/src/handirob_behavior_tree.cc.o -c /home/junge/catkin_ws/src/handirob_behavior_tree/src/handirob_behavior_tree.cc",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"handirob_behavior_tree\\\" -DZMQ_FOUND -I/home/junge/catkin_ws/src/handirob_behavior_tree/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/junge/catkin_ws/devel/.private/ui_control/include -isystem /opt/ros/noetic/include  -g   -std=c++14 -std=gnu++14 -o CMakeFiles/handirob_behavior_tree.dir/src/handirob_behavior_tree.cc.o -c /home/junge/catkin_ws/src/handirob_behavior_tree/src/handirob_behavior_tree.cc",
   "file": "/home/junge/catkin_ws/src/handirob_behavior_tree/src/handirob_behavior_tree.cc"
 },
 {
   "directory": "/home/junge/catkin_ws/src/handirob_behavior_tree/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"handirob_behavior_tree\\\" -DZMQ_FOUND -Dset_mood_EXPORTS -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/junge/catkin_ws/devel/.private/ui_control/include -isystem /opt/ros/noetic/include  -g -fPIC   -std=c++14 -std=gnu++14 -o CMakeFiles/set_mood.dir/src/action_nodes/set_mood.cc.o -c /home/junge/catkin_ws/src/handirob_behavior_tree/src/action_nodes/set_mood.cc",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"handirob_behavior_tree\\\" -DZMQ_FOUND -Dset_mood_EXPORTS -I/home/junge/catkin_ws/src/handirob_behavior_tree/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/junge/catkin_ws/devel/.private/ui_control/include -isystem /opt/ros/noetic/include  -g -fPIC   -std=c++14 -std=gnu++14 -o CMakeFiles/set_mood.dir/src/action_nodes/set_mood.cc.o -c /home/junge/catkin_ws/src/handirob_behavior_tree/src/action_nodes/set_mood.cc",
   "file": "/home/junge/catkin_ws/src/handirob_behavior_tree/src/action_nodes/set_mood.cc"
 },
 {
