@@ -1,0 +1,8 @@
+prefix=/home/junge/catkin_ws/src/handirob_behavior_tree/build/devel
+
+Name: handirob_behavior_tree
+Description: Description of handirob_behavior_tree
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/junge/catkin_ws/src/handirob_behavior_tree/build/devel/setup.sh
