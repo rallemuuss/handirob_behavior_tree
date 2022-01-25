@@ -53,7 +53,11 @@ add_library(set_mood ${PROJECT_SOURCE_DIR}/src/action_nodes/set_mood.cc )
 target_link_libraries(set_mood BT::behaviortree_cpp_v3)
 target_link_libraries(set_mood ${LIBS} ${catkin_LIBRARIES})
 
+add_library(move_to ${PROJECT_SOURCE_DIR}/src/action_nodes/move_to.cc )
+target_link_libraries(move_to BT::behaviortree_cpp_v3)
+target_link_libraries(move_to ${LIBS} ${catkin_LIBRARIES})
+
 
 add_executable(handirob_behavior_tree ${PROJECT_SOURCE_DIR}/src/handirob_behavior_tree.cc ${HEADER_FILES})
-target_link_libraries(handirob_behavior_tree set_mood BT::behaviortree_cpp_v3 ${catkin_LIBRARIES})
+target_link_libraries(handirob_behavior_tree set_mood move_to BT::behaviortree_cpp_v3 ${catkin_LIBRARIES})
 

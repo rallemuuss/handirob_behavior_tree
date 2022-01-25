@@ -37,13 +37,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 57,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 58,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -200,6 +200,10 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "move_to::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "set_mood::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -223,6 +227,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "devel/lib/libset_mood.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "devel/lib/libmove_to.so",
 				"role" : "libraries"
 			},
 			{

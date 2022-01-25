@@ -18,6 +18,7 @@
                 "/home/junge/catkin_ws/src/ui_control/include/**",
                 "/opt/ros/noetic/include",
                 "${workspaceFolder}/include",
+                "/opt/ros/noetic/include",
                 "/opt/ros/noetic/include"
             ],
             "name": "ROS",

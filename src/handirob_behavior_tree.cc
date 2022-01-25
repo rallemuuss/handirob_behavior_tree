@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 
 	std::string behavior_tree_file_path;
 	nh.param<std::string>("behavior_tree_file_path", behavior_tree_file_path, 
-		"src/handirob_behavior_tree/trees/usecase1.xml");
+		"src/handirob_behavior_tree/trees/testtree.xml");
 
 	std::cout << behavior_tree_file_path << std::endl;
 

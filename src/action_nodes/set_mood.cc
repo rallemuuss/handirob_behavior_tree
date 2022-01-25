@@ -5,20 +5,20 @@
 SetMood::SetMood(const std::string& name, const BT::NodeConfiguration& config):
 	SyncActionNode(name, config), nh_("~")
 {	
-	client = nh_.serviceClient<ui_control::ui_mood>("setmood");
+	client = nh_.serviceClient<ui_control::ui_mood>("/ui_control/setmood");
 }
 
 
 BT::PortsList SetMood::providedPorts()
 {
-	// This action has a single input port called "message"
+	// This action has a single input port called "mood"
 	// Any port must have a name. The type is optional.
     return{ BT::InputPort<std::string>("mood") };	// String to encode mood information.
 }
 
 BT::NodeStatus SetMood::tick()
 {
-    BT::Optional<std::string> msg = getInput<std::string>("distance");
+    BT::Optional<std::string> msg = getInput<std::string>("mood");
     // Check if optional is valid. If not, throw its error
     if (!msg)
     {
