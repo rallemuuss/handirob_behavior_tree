@@ -13,6 +13,9 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   behaviortree_cpp_v3
   ui_control
+  move_base_msgs
+  actionlib
+  geometry_msgs 
 )
 
 ## Behavior tree cpp v3 dependancy
@@ -33,6 +36,9 @@ catkin_package(
   roscpp 
   std_msgs 
   ui_control
+  move_base_msgs 
+  actionlib
+  geometry_msgs 
 )
 
 ###########
